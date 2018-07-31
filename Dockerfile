@@ -17,5 +17,5 @@ RUN pip install websocket-client
 # Define environment variable
 ENV NAME AiCEE-Bot
 
-# Run app.py when the container launches
-CMD ["python", "run.py"]
+# Run run.py when the container launches
+#CMD ["python", "run.py"]
